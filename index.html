@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="te">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Day Trader Telugu</title>
+<title>TRADING WITH SUDARSHAN</title>
 
-<!-- ✅ UPDATED Meta Pixel Code -->
+<!-- Meta Pixel Code untouched -->
 <script>
 !function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -15,133 +15,239 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window, document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-
-fbq('init', '1679386723028030'); 
+fbq('init', '4814651905428962');
 fbq('track', 'PageView');
 </script>
-
-<noscript>
-<img height="1" width="1" style="display:none"
-src="https://www.facebook.com/tr?id=1679386723028030&ev=PageView&noscript=1"/>
-</noscript>
-<!-- END Meta Pixel Code -->
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=4814651905428962&ev=PageView&noscript=1"
+/></noscript>
 
 <style>
-
-*{
-box-sizing:border-box;
-margin:0;
-padding:0;
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
-body{
-font-family:Arial;
-background:linear-gradient(135deg,#020617,#0f172a);
-color:white;
-display:flex;
-justify-content:center;
-align-items:center;
-min-height:100vh;
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background-color: #0b0e14;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 15px;
 }
 
-.container{
-width:380px;
-background:#111827;
-border-radius:25px;
-padding:30px;
-text-align:center;
-box-shadow:0 10px 40px rgba(0,0,0,0.8);
+.container {
+    width: 100%;
+    max-width: 420px;
+    background-color: #121824;
+    border-radius: 20px;
+    padding: 25px 20px;
+    text-align: center;
+    box-shadow: 0 4px 25px rgba(0, 0, 0, 0.5);
 }
 
-.logo{
-width:110px;
-height:110px;
-border-radius:100px;
-margin-bottom:15px;
-animation:float 3s ease-in-out infinite;
+/* Live Badge Top */
+.live-badge {
+    display: inline-flex;
+    align-items: center;
+    background-color: #1a2634;
+    color: #4ade80;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border: 1px solid rgba(74, 222, 128, 0.2);
 }
 
-@keyframes float{
-0%{transform:translateY(0)}
-50%{transform:translateY(-12px)}
-100%{transform:translateY(0)}
+.live-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #4ade80;
+    border-radius: 50%;
+    margin-right: 8px;
+    box-shadow: 0 0 8px #4ade80;
 }
 
-h1{
-font-size:26px;
-margin-bottom:5px;
+/* Profile Image */
+.logo {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #3b82f6;
+    margin-bottom: 15px;
 }
 
-.badge{
-background:linear-gradient(45deg,#ff512f,#ff9966);
-padding:12px 20px;
-border-radius:30px;
-display:inline-block;
-margin:15px 0;
-font-weight:bold;
+/* Titles */
+h1 {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 5px;
+    color: #ffffff;
 }
 
-.telegram-btn{
-display:block;
-margin:20px 0;
-padding:18px;
-border-radius:50px;
-background:linear-gradient(90deg,#00c6ff,#0072ff);
-color:white;
-font-weight:bold;
-font-size:18px;
-text-decoration:none;
-animation:glow 1.5s infinite;
+.subtitle {
+    font-size: 13px;
+    color: #3b82f6;
+    font-weight: 600;
+    margin-bottom: 12px;
 }
 
-@keyframes glow{
-0%{box-shadow:0 0 5px #00c6ff;}
-50%{box-shadow:0 0 25px #00c6ff;}
-100%{box-shadow:0 0 5px #00c6ff;}
+/* Rating Stars */
+.rating-section {
+    margin-bottom: 20px;
 }
 
-.text{
-margin-top:15px;
-line-height:1.7;
-font-size:16px;
+.stars {
+    color: #fbbf24;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-bottom: 3px;
 }
 
-.highlight{
-color:#ff6b6b;
-font-weight:bold;
+.rating-text {
+    font-size: 12px;
+    color: #9ca3af;
 }
 
-.profit{
-color:#ffd700;
-font-size:20px;
-margin:20px 0;
-font-weight:bold;
+/* Telegram Button */
+.telegram-btn {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #1d4ed8 0%, #2563eb 100%);
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 15px rgba(37, 99, 235,.4);
+    transition: transform 0.2s;
 }
 
-.features{
-margin-top:10px;
-text-align:left;
-line-height:2;
-font-size:15px;
+.telegram-btn:hover {
+    transform: translateY(-2px);
 }
 
-.dm-btn{
-display:block;
-margin-top:20px;
-padding:16px;
-border-radius:40px;
-background:linear-gradient(90deg,#22c55e,#16a34a);
-color:white;
-font-weight:bold;
-text-decoration:none;
+/* Stats Box */
+.stats-box {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1a2230;
+    border-radius: 12px;
+    padding: 12px 10px;
+    margin-bottom: 20px;
+    border: 1px solid #2a374a;
 }
 
-.footer{
-margin-top:20px;
-font-size:13px;
-color:#9ca3af;
+.stat-item {
+    flex: 1;
+    text-align: center;
 }
 
+.stat-num {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 2px;
+}
+
+.stat-label {
+    font-size: 11px;
+    color: #9ca3af;
+}
+
+/* Heading section */
+.section-title {
+    font-size: 15px;
+    font-weight: 700;
+    color: #ffffff;
+    margin-bottom: 4px;
+}
+
+.section-desc {
+    font-size: 12px;
+    color: #9ca3af;
+    margin-bottom: 15px;
+}
+
+/* Limited Access Banner */
+.limited-banner {
+    background: linear-gradient(90deg, rgba(234, 88, 12, 0.15), rgba(220, 38, 38, 0.15));
+    border: 1px solid rgba(234, 88, 12, 0.4);
+    color: #fb923c;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+/* Features List */
+.features-list {
+    text-align: left;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.features-list li {
+    font-size: 14px;
+    color: #d1d5db;
+    background-color: #1a2230;
+    padding: 12px 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #222e40;
+}
+
+.features-list li::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.features-list li.icon-chart::before { content: '📊'; }
+.features-list li.icon-book::before { content: '📚'; }
+.features-list li.icon-community::before { content: '👥'; }
+
+/* Timer Alert Style */
+.timer-box {
+    background-color: rgba(37, 99, 235, 0.1);
+    border: 1px dashed #2563eb;
+    color: #60a5fa;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+/* Footer Disclaimer */
+.footer {
+    font-size: 10px;
+    color: #6b7280;
+    line-height: 1.5;
+    border-top: 1px solid #1f2937;
+    padding-top: 12px;
+    text-align: left;
+}
 </style>
 </head>
 
@@ -149,49 +255,90 @@ color:#9ca3af;
 
 <div class="container">
 
-<img src="logo.png" class="logo">
+    <!-- Live Online Badge -->
+    <div class="live-badge">
+        <div class="live-dot"></div>
+        <span id="online-count">3,947</span> Traders Online Now
+    </div>
 
-<h1>📈 Day Trader తెలుగు</h1>
-<div>💸🏆</div>
+    <img src="logo.png" alt="trade with sudarshan" class="logo">
 
-<div class="badge">🚀 17+ సంవత్సరాల ట్రేడింగ్ అనుభవం</div>
+    <h1>TRADE WITH SUDARSHAN</h1>
+    <div class="subtitle">🏆 India's No.1 Stock Market Channel</div>
 
-<div>👇👇👇</div>
+    <div class="rating-section">
+        <div class="stars">★★★★★</div>
+        <div class="rating-text">4.9/5 (2340 Reviews)</div>
+    </div>
 
-<a class="telegram-btn" href="https://t.me/+9WhFzjPgU5M1MTZl" target="_blank"
-onclick="fbq('track','Lead');">
-JOIN TELEGRAM CHANNEL
-</a>
+    <!-- Top Button -->
+    <a href="https://t.me/+x8j1YuP71305OTI9" class="telegram-btn" id="joinBtn">
+        Join Free Telegram Channel →
+    </a>
 
-<div class="text">
-మీరు ట్రేడింగ్ ద్వారా డబ్బు సంపాదించాలనుకుంటున్నారా?<br><br>
-<span class="highlight">
-అయితే పై టెలిగ్రామ్ బటన్ పై క్లిక్ చేయండి 🚀
-</span>
+    <!-- Stats -->
+    <div class="stats-box">
+        <div class="stat-item">
+            <div class="stat-num">50K+</div>
+            <div class="stat-label">Members</div>
+        </div>
+        <div class="stat-item" style="border-left: 1px solid #2a374a; border-right: 1px solid #2a374a;">
+            <div class="stat-num">5+</div>
+            <div class="stat-label">Years</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-num">95%</div>
+            <div class="stat-label">Accuracy</div>
+        </div>
+    </div>
+
+    <div class="section-title">Get FREE Daily Calls</div>
+    <div class="section-desc">for NIFTY, BANKNIFTY & SENSEX</div>
+
+    <div class="limited-banner">
+        🔥 Limited FREE Access Available
+    </div>
+
+    <!-- Timer Message Box -->
+    <div class="timer-box">
+        Automatic Joining in <span id="timer" style="font-weight: bold; font-size: 15px; color: #fff;">9</span> seconds...
+    </div>
+
+    <ul class="features-list">
+        <li class="icon-chart">Daily Nifty & BankNifty Levels</li>
+        <li class="icon-book">Educational Market Analysis</li>
+        <li class="icon-community">50,000+ Subscribers Community</li>
+    </ul>
+
+    <!-- Bottom Button -->
+    <a href="https://t.me/+x8j1YuP71305OTI9" class="telegram-btn">
+        Join Free Telegram Channel →
+    </a>
+
+    <div class="footer">
+        <strong style="color: #9ca3af;">Disclaimer:</strong><br>
+        This channel is for educational purposes only. Trading involves market risk. Please consult your financial advisor before making investment decisions.
+    </div>
+
 </div>
 
-<div class="profit">
-💎 DAILY PROFIT GUARANTEE 💎
-</div>
+<!-- Auto Redirect Timer Script -->
+<script>
+    let timeLeft = 9;
+    const timerElement = document.getElementById('timer');
+    const telegramUrl = "https://t.me/+x8j1YuP71305OTI9";
 
-<div class="features">
-📊 మా పోర్ట్‌ఫోలియో నుండి లైవ్ ట్రేడ్స్<br>
-🔥 ప్రొఫెషనల్స్ వాడే సిగ్నల్స్<br>
-💯 హై అక్యూరసీ & కన్సిస్టెన్సీ<br>
-⚡ రియల్ టైమ్ అప్డేట్స్
-</div>
-
-<a class="dm-btn" href="https://t.me/+hZA7we0AX_s3ZWQ1" target="_blank"
-onclick="fbq('track','Contact');">
-👉 Meta Ads Setup కోసం DM చేయండి  
-<br> Kunal Ads Agency
-</a>
-
-<div class="footer">
-©️ 2026 Day Trader Telugu - All rights reserved
-</div>
-
-</div>
+    const countdown = setInterval(() => {
+        timeLeft--;
+        if(timerElement) {
+            timerElement.textContent = timeLeft;
+        }
+        if(timeLeft <= 0) {
+            clearInterval(countdown);
+            window.location.href = telegramUrl;
+        }
+    }, 1000);
+</script>
 
 </body>
 </html>
